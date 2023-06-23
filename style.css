@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(57, 9, 145);
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+#grad {
+  background-image: linear-gradient(to bottom right, rgb(106, 7, 149), rgb(0, 0, 0));
+  height: 100vh;
+  
+}
+
+#text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: lightgray;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+#stats {
+  border: 1px black solid;
+  color: black;
+  padding: 5px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+  background-color: red;
+}
+
+#button4 {
+  display: none;
+}
+
+#button5 {
+  display: none;
+}
+
+#button6 {
+  display: none;
+}
+
+.stat {
+  padding-right: 10px;
+}
